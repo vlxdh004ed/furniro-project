@@ -1,0 +1,11 @@
+.accent-button {
+    font-weight: 600;
+    color: var(--color-primary-text);
+    background-color: var(--color-white);
+    transition: all 0.2s;
+
+    &:hover {
+        color: var(--color-white);
+        background-color: var(--color-primary-text);
+    }
+}

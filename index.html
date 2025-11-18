@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.min.css">
+    <title>Furniro | Home</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a href="#" class="header__logo">
+                <img src="./images/header-logo/header-logo.svg" alt="">
+                <h1 class="header__logo-text">Furniro</h1>
+            </a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Shop</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__cart">
+                <button class="header__cart-item">
+                    <svg class="icon" width="28" height="28">
+                        <use href="./images/SVG/symbol-defs.svg#icon-person"></use>
+                    </svg>
+                </button>
+                <button class="header__cart-item">
+                    <svg class="icon icon-fill" width="28" height="28">
+                        <use href="./images/SVG/symbol-defs.svg#icon-search"></use>
+                    </svg>
+                </button>
+                <button class="header__cart-item">
+                    <svg class="icon icon-fill" width="28" height="28">
+                        <use href="./images/SVG/symbol-defs.svg#icon-like"></use>
+                    </svg>
+                </button>
+                <button class="header__cart-item">
+                    <svg class="icon" width="28" height="28">
+                        <use href="./images/SVG/symbol-defs.svg#icon-cart"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero__section container">
+            <div class="hero__section-container">
+                <div class="hero__section-content">
+                    <p class="hero__section-subtitle">New Arrival</p>
+                    <h1 class="hero__section-title">Discover Our <br> New Collection</h1>
+                    <p class="hero__section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
+                    <button type="button" class="hero__section-button button">Buy Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="catalog__section container">
+            <div class="catalog__section-content">
+                <div class="catalog__section-top">
+                    <h1 class="catalog__section-title">Browse The Range</h1>
+                    <h4 class="catalog__section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                </div>
+                <div class="catalog__section-bottom">
+                    <ul class="catalog__section-list">
+                        <li class="catalog__section-item">
+                            <img 
+                            class="catalog__section-img" 
+                            src="./images/catalog-section/Dining.jpg" 
+                            alt=Dining">
+                            <h3 class="catalog__section-discription">Dining</h3>
+                        </li>
+                        <li class="catalog__section-item">
+                            <img 
+                            class="catalog__section-img" 
+                            src="./images/catalog-section/Living.jpg" 
+                            alt="Living">
+                            <h3 class="catalog__section-discription">Living</h3>
+                        </li>
+                        <li class="catalog__section-item">
+                            <img 
+                            class="catalog__section-img" 
+                            src="./images/catalog-section/Bedroom.jpg" 
+                            alt="Bedroom">
+                            <h3 class="catalog__section-discription">Bedroom</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="products__section container">
+            <h1 class="products__section-title">Our Products</h1>
+            <div class="products__section-grid">
+                <div class="products__section-card products__card">
+                    <img
+                    class="products__card-img" 
+                    src="./images/products-section/Syltherine.jpg" 
+                    alt="Syltherine">
+                    <span class="products__card-discount-mark price-tag">-30%</span>
+                    <span></span>
+                    <div class="products__card-discription">
+                        <h3 class="products__card-title">Syltherine</h4>
+                        <p class="products__card-subtitle">Stylish cafe chair</p>
+                        <div class="products__card-price">
+                            <h4 class="products__card-cost">Rp 2.500.000</h4>
+                            <p class="products__card-cost-discount">Rp 3.500.000</p>
+                        </div>
+                    </div>
+                    <div class="product__overlay">
+                        <button class="product__overlay-btn accent-button" type="button">Add to cart</button>
+                        <div class="product__overlay-list">
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-share"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Share</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-compare"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Compare</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon icon-fill product__overlay-icon " width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-heart"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Like</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="products__section-card products__card">
+                    <img
+                    class="products__card-img" 
+                    src="./images/products-section/Leviosa.jpg" 
+                    alt="Leviosa">
+                    <div class="products__card-discription">
+                        <h3 class="products__card-title">Leviosa</h4>
+                        <p class="products__card-subtitle">Stylish cafe chair</p>
+                        <div class="products__card-price">
+                            <h4 class="products__card-cost">Rp 2.500.000</h4>
+                        </div>
+                    </div>
+                    <div class="product__overlay">
+                        <button class="product__overlay-btn accent-button" type="button">Add to cart</button>
+                        <div class="product__overlay-list">
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-share"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Share</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-compare"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Compare</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon icon-fill product__overlay-icon " width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-heart"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Like</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__section-card products__card">
+                    <img
+                    class="products__card-img" 
+                    src="./images/products-section/Lolito.jpg" 
+                    alt="Lolito">
+                    <span class="products__card-discount-mark price-tag">-50%</span>
+                    <div class="products__card-discription">
+                        <h3 class="products__card-title">Lolito</h4>
+                        <p class="products__card-subtitle">Luxury big sofa</p>
+                        <div class="products__card-price">
+                            <h4 class="products__card-cost">Rp 7.000.000</h4>
+                            <p class="products__card-cost-discount">Rp 14.000.000</p>
+                        </div>
+                    </div>
+                    <div class="product__overlay">
+                        <button class="product__overlay-btn accent-button" type="button">Add to cart</button>
+                        <div class="product__overlay-list">
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-share"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Share</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-compare"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Compare</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon icon-fill product__overlay-icon " width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-heart"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Like</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__section-card products__card">
+                    <img
+                    class="products__card-img" 
+                    src="./images/products-section/Respira.jpg" 
+                    alt="Respira">
+                    <span class="products__card-new-mark price-tag">New</span>
+                    <div class="products__card-discription">
+                        <h3 class="products__card-title">Respira</h4>
+                        <p class="products__card-subtitle">Outdoor bar table and stool</p>
+                        <div class="products__card-price">
+                            <h4 class="products__card-cost">Rp 500.000</h4>
+                        </div>
+                    </div>
+                    <div class="product__overlay">
+                        <button class="product__overlay-btn accent-button" type="button">Add to cart</button>
+                        <div class="product__overlay-list">
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-share"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Share</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon icon-fills product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-compare"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Compare</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon-fill icon product__overlay-icon " width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-heart"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Like</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__section-card products__card">
+                    <img
+                    class="products__card-img" 
+                    src="./images/products-section/Grifo.jpg" 
+                    alt="Syltherine">
+                    <div class="products__card-discription">
+                        <h3 class="products__card-title">Grifo</h4>
+                        <p class="products__card-subtitle">Night lamp</p>
+                        <div class="products__card-price">
+                            <h4 class="products__card-cost">Rp 1.500.000</h4>
+                        </div>
+                    </div>
+                    <div class="product__overlay">
+                        <button class="product__overlay-btn accent-button" type="button">Add to cart</button>
+                        <div class="product__overlay-list">
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-share"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Share</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-compare"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Compare</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon icon-fill product__overlay-icon " width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-heart"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Like</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="products__section-card products__card">
+                    <img
+                    class="products__card-img" 
+                    src="./images/products-section/Muggo.jpg" 
+                    alt="Leviosa">
+                    <span class="products__card-new-mark price-tag">New</span>  
+                    <div class="products__card-discription">
+                        <h3 class="products__card-title">Muggo</h4>
+                        <p class="products__card-subtitle">Small mug</p>
+                        <div class="products__card-price">
+                            <h4 class="products__card-cost">Rp 150.000</h4>
+                        </div>
+                    </div>
+                    <div class="product__overlay">
+                        <button class="product__overlay-btn accent-button" type="button">Add to cart</button>
+                        <div class="product__overlay-list">
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-share"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Share</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-compare"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Compare</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon icon-fill product__overlay-icon " width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-heart"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Like</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__section-card products__card">
+                    <img
+                    class="products__card-img" 
+                    src="./images/products-section/Pingky.jpg" 
+                    alt="Lolito">
+                    <span class="products__card-discount-mark price-tag">-50%</span>
+                    <div class="products__card-discription">
+                        <h3 class="products__card-title">Pingky</h4>
+                        <p class="products__card-subtitle">Cute bed set</p>
+                        <div class="products__card-price">
+                            <h4 class="products__card-cost">Rp 7.000.000</h4>
+                            <p class="products__card-cost-discount">Rp 14.000.000</p>
+                        </div>
+                    </div>
+                    <div class="product__overlay">
+                        <button class="product__overlay-btn accent-button" type="button">Add to cart</button>
+                        <div class="product__overlay-list">
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-share"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Share</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-compare"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Compare</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon icon-fill product__overlay-icon " width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-heart"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Like</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__section-card products__card">
+                    <img
+                    class="products__card-img" 
+                    src="./images/products-section/Potty.jpg" 
+                    alt="Respira">
+                    <span class="products__card-new-mark price-tag">New</span>
+                    <div class="products__card-discription">
+                        <h3 class="products__card-title">Potty</h4>
+                        <p class="products__card-subtitle">Minimalist flower pot</p>
+                        <div class="products__card-price">
+                            <h4 class="products__card-cost">Rp 500.000</h4>
+                        </div>
+                    </div>
+                    <div class="product__overlay">
+                        <button class="product__overlay-btn accent-button" type="button">Add to cart</button>
+                        <div class="product__overlay-list">
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-share"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Share</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon icon-fills product__overlay-icon" width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-compare"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Compare</span>
+                                </a>
+                            </div>
+                            <div class="product__overlay-action">
+                                <a class="product__overlay-link" href="#">
+                                    <svg class="icon-fill icon product__overlay-icon " width="16" height="16">
+                                        <use href="./images/SVG/symbol-defs.svg#icon-heart"></use>
+                                    </svg>
+                                    <span class="product__overlay-text">Like</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="showmore-button accent-button">Show More</div>
+        </section>
+        <section class="inspirations__section container">
+            <div class="inspirations__section-grid">
+                <div class="inspirations__section-discription">
+                    <h1 class="inspirations__section-title">50+ Beautiful rooms inspiration</h1>
+                    <p class="inspirations__section-text">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+                    <button class="inspirations__section-button button" type="button">Explore More</button>
+                </div>
+                <div class="inspirations__section-preview preview">
+                    <img class="preview-img" src="./images/inspirations-section/Bed-Room01.jpg" alt="Bed Room - Inner Peace">
+                    <div class="preview__box">
+                        <p class="preview__box-subtitle">01 — Bed Room</p>
+                        <h2 class="preview__box-title">Inner Peace</h2>
+                        <button type="button" class="preview__box-button button">
+                            <svg class="icon preview__box-icon" width="24" height="24">
+                                <use href="./images/SVG/symbol-defs.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="inspirations__section-slider">
+                    <img src="./images/inspirations-section/slider-photo-1.jpg" alt="slider-photo">
+                </div>
+            </div>
+        </section>
+        <section class="collage__section container">
+            <p class="collage__section-subtitle">Share your setup with</p>
+            <h1 class="collage__section-title">#FuniroFurniture</h1>
+            <div class="moodboard__container">
+                <div class="moodboard__container-item item-1">
+                    <img src="./images/collage-section/collagePhoto-1.jpg" alt="" class="moodboard__container-img">
+                </div>
+                <div class="moodboard__container-item item-2">
+                    <img src="./images/collage-section/collagePhoto-2.jpg" alt="" class="moodboard__container-img">
+                </div>
+                <div class="moodboard__container-item item-3">
+                    <img src="./images/collage-section/collagePhoto-3.jpg" alt="" class="moodboard__container-img">
+                </div>
+                <div class="moodboard__container-item item-4">
+                    <img src="./images/collage-section/collagePhoto-4.jpg" alt="" class="moodboard__container-img">
+                </div>
+                <div class="moodboard__container-item item-5">
+                    <img src="./images/collage-section/collagePhoto-5.jpg" alt="" class="moodboard__container-img">
+                </div>
+                <div class="moodboard__container-item item-6">
+                    <img src="./images/collage-section/collagePhoto-6.jpg" alt="" class="moodboard__container-img">
+                </div>
+                <div class="moodboard__container-item item-7">
+                    <img src="./images/collage-section/collagePhoto-7.jpg" alt="" class="moodboard__container-img">
+                </div>
+                <div class="moodboard__container-item item-8">
+                    <img src="./images/collage-section/collagePhoto-8.jpg" alt="" class="moodboard__container-img">
+                </div>
+                <div class="moodboard__container-item item-9">
+                    <img src="./images/collage-section/collagePhoto-9.jpg" alt="" class="moodboard__container-img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__container-top">
+                <div class="footer__container-title">
+                    <a href="#">
+                        <h1 class="footer__container-logo">Funiro.</h1>
+                    </a>
+                    <address class="footer__container-address">400 University Drive Suite 200 Coral <br> Gables, <br>FL 33134 USA</address>
+                </div>
+                <div class="footer__container-menu">
+                    <div class="footer__container-nav">
+                        <nav class="footer__container-links">
+                        <p class="footer__container-list-title">Links</p>
+                        <ul class="footer__container-list">
+                            <li class="footer__container-items">
+                                <a href="#" class="footer__container-link">Home</a>
+                            </li>
+                            <li class="footer__container-items">
+                                <a href="#" class="footer__container-link">Shop</a>
+                            </li>
+                            <li class="footer__container-items">
+                                <a href="#" class="footer__container-link">About</a>
+                            </li>
+                            <li class="footer__container-items">
+                                <a href="#" class="footer__container-link">Contact</a>
+                            </li>
+                        </ul>
+                        </nav>
+                        <nav class="footer__container-help">
+                            <p class="footer__container-list-title">Help</p>
+                            <ul class="footer__container-list">
+                                <li class="footer__container-items">
+                                    <a href="#" class="footer__container-link">Payment Options</a>
+                                </li>
+                                <li class="footer__container-items">
+                                    <a href="#" class="footer__container-link">Returns</a>
+                                </li>
+                                <li class="footer__container-items">
+                                    <a href="#" class="footer__container-link">Privacy Policies</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__container-form">
+                        <p class="footer__container-list-title">Newsletter</p>
+                        <form method="post" class="footer__container-form-area">
+                            <input 
+                            type="email" 
+                            name="email" 
+                            placeholder="Enter Your Email Address"
+                            required
+                            class="footer__container-form-input">
+                            <button class="footer__container-form-button" type="submit">
+                                SUBSCRIBE
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__container-bottom">
+                <p class="footer__container-bottom-text">2023 furino. All rights reverved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

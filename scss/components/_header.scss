@@ -1,0 +1,65 @@
+.header {
+    background-color: var(--color-white);
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 29px 100px 30px 54px;
+
+    }
+
+    &__logo {
+        display: flex;
+        gap: 5px;
+        transition: color 0.2s;
+
+        &:hover {
+            color: var(--color-primary);
+        }
+
+        &-text {
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+    }
+
+    &__nav {
+        &-list {
+            display: flex;
+        }
+
+        &-item {
+            margin-right: 75px;
+            transition: color 0.2s;
+            font-weight: 500;
+
+            &:hover {
+                color: var(--color-primary);
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__cart {
+        display: flex;
+
+        &-item {
+            margin-right: 45px;
+            transition: all 0.2s;
+
+            &:hover {
+                fill: var(--color-primary);
+                color: var(--color-primary);
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

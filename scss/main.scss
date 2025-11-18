@@ -1,0 +1,20 @@
+@import './base';
+@import './normalize';
+
+@import './utils/fonts';
+@import './utils/variables';
+
+
+@import './layouts/hero-section';
+@import './layouts/catalog-section';
+@import './layouts/products-section';
+@import './layouts/inspirations-section';
+@import './layouts/collage-section';
+
+@import './components/header';
+@import './components/footer';
+@import './components/button';
+@import './components/price-tag';
+@import './components/product-overlay';
+@import './components/accent-button';
+@import './components/showmore-button';

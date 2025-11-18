@@ -1,0 +1,12 @@
+.price-tag {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    color: var(--color-white);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    top: 24px;
+    right: 24px;
+}
